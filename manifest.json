@@ -1,0 +1,28 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "action": {
+      "default_icon": {
+         "19": "icons/logo19.png",
+         "38": "icons/logo38.png"
+      }
+   },
+   "content_security_policy": {
+	"script-src": "'self' https://ssl.google-analytics.com",
+	"object-src": "'self'"
+   },
+   "description": "A JSON aware developer console to ElasticSearch.",
+   "icons": {
+      "128": "icons/logo128.png",
+      "16": "icons/logo16.png",
+      "48": "icons/logo48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWAy23pT8J+G1i2Lvzj/mJ08MxW01yj2R+25Jf24mlaCQm8SZKL6tSfQsRaXWS3PwnULIJwwdLXbcXwoIWubLG9hDr8v8YtKr0jkmK6UoTQhzbO2oF6IEjtwbUJVl75pUsAXNynuoWr88D2WJgA7p/wXxqIRTfxoa+IaFdybvc+wIDAQAB",
+   "manifest_version": 3,
+   "name": "Sense",
+   "permissions": [ "tabs", "clipboardWrite" ],
+   "host_permissions": [ "https://*/", "http://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.2.3"
+}
